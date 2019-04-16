@@ -1,0 +1,17 @@
+body{
+    background-color: greenyellow;
+}
+#button{
+    border: 2px solid #b31cce;
+    color: #b31cce;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    transition: all 0.5s;
+}
+
+#button:hover {
+    color: white;
+    background-color: #b31cce;
+    font-size: 20px;
+}
