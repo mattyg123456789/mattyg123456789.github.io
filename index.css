@@ -21,3 +21,20 @@ font-family: "Kunstler Script","Blackadder ITC",sans-serif;
  padding: 10px 30px;
 
 }
+
+ol{
+   list-style: lower-alpha;
+}
+
+ul {
+   list-style: square;
+}
+
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+th, td {
+   padding: 5px;
+}
