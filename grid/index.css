@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+html, body {
+    height: 100%;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 75px 1fr 75px;
+}
+
+.navbar {
+    background-color: #2dad7e;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar div{
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+.sidebar {
+    background-color: sandybrown; 
+    grid-row: 2/4;
+}
+
+.sidebar div {
+    padding: 20px;
+    transition: all .5s;
+}
+
+.sidebar div:hover {
+    background-color: black;
+    color: sandybrown;
+    font-weight: bold;
+}
+
+.main {
+    background-image: url('https://vignette.wikia.nocookie.net/spongebob/images/2/2a/SpongeBob_SquarePants%28copy%290.png/revision/latest?cb=20160507142128');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

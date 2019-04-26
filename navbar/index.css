@@ -107,3 +107,20 @@
 .card-4 {
     background-color: #FDD835;
 }
+
+@media(max-width: 840px) {
+    .nav-container {
+        margin: 20px 0px;
+        flex-direction: column;
+        height: 300px;
+    }
+    .main-section {
+        padding-top: 350px;
+    }
+}
+
+@media(max-width: 800px) {
+    .card {
+        width: 100%;
+    }
+}
